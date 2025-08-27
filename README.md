@@ -61,5 +61,3 @@ This project focuses on practicing **HTML forms, CSS styling, and layout techniq
 Project idea from [The Odin Project](https://www.theodinproject.com/).
 
 ---
-
-👉 Do you want me to make it **short and simple** (just description + preview + usage) or a **full detailed one** like this with sections (features, what I learned, improvements, etc.)?
