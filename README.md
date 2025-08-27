@@ -14,7 +14,7 @@ This project focuses on practicing **HTML forms, CSS styling, and layout techniq
 * Clean and responsive layout
 * Input fields for user details (name, email, password, etc.)
 * Basic form validation
-* Styled with modern CSS (Flexbox/Grid)
+* Styled with modern CSS (Flexbox)
 * Mobile-friendly design
 
 ---
@@ -31,7 +31,7 @@ This project focuses on practicing **HTML forms, CSS styling, and layout techniq
 ## 🎯 What I Learned
 
 * How to structure and style HTML forms
-* Using Flexbox/Grid for layout
+* Using Flexbox for layout
 * Adding basic form validation
 * Writing clean, semantic, and reusable CSS
 
