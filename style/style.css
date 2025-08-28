@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url("/resources/font/Norse-Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.container {
+    border: none;
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    border: none;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.image-container {
+    border: none;
+    width: 37%;
+    background-image: url("/resources/images/halie-west-25xggax4bSA-unsplash\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-container {
+    border: none;
+    height: 170px;
+    position: relative;
+    top: 20%;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.logo-container>img {
+    width: 90px;
+    height: 150px;
+    position: relative;
+    left: 10%;
+}
+
+.logo-container>h1 {
+    color: white;
+    position: absolute;
+    right: 40%;
+    top: 20%;
+    font-family: "Norse Bold", sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+}
+
+.copyright {
+    border: none;
+    height: 50px;
+    position: relative;
+    top: 70%;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.copyright>p>a {
+    text-decoration-line: none;
+    cursor: pointer;
+    color: white;
+}
+
+.aside {
+    border: none;
+    width: 63%;
+    background-color: whitesmoke;
+}
+
+.space {
+    border: none;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+.desc {
+    border: none;
+    height: 250px;
+    padding: 30px;
+
+}
+
+.desc>p {
+    font-size: 25px;
+    padding-top: 25px;
+    background-color: whitesmoke;
+}
+
+.form-cont {
+    border: none;
+    height: 300px;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-cont>.form {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: auto;
+    position: relative;
+    left: 3%;
+    padding: 10px;
+}
+
+.text {
+    position: relative;
+    left: 3%;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+input {
+    padding: .5em .5em;
+    display: flex;
+    width: calc(250px);
+    border: 1px dashed #E5E7EB;
+    margin-bottom: 40px;
+    margin-right: 110px;
+}
+
+input:focus {
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px rgba(117, 117, 117, 0.795);
+}
+
+input:hover {
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px rgba(117, 117, 117, 0.795);
+}
+
+input:invalid {
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgb(128, 128, 128);
+
+}
+
+.btn-cont {
+    border: none;
+    height: 200px;
+    padding: 40px;
+
+}
+
+.btn {
+    padding: .9em .5em;
+    width: calc(250px);
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 20px 5px white;
+    color: white;
+    background-color: #596D48;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(5, 185, 5);
+}
+
+.btn-cont>p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.btn-cont>p>a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(0, 4, 255);
+}
+
+
+@media (max-width:768px) {
+    .container {
+        height: auto;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .image-container {
+        overflow: hidden;
+        width: 100%;
+        height: 37%;
+    }
+
+    .logo-container {
+        height: 90px;
+        position: none;
+    }
+
+    .logo-container>img {
+        width: 70px;
+        height: 90px;
+        position: relative;
+        left: 10%;
+    }
+
+    .logo-container>h1 {
+        position: none;
+        font-family: "Norse Bold", sans-serif;
+        font-weight: bold;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .aside {
+        overflow: hidden;
+        width: 100%;
+        height: 67%;
+    }
+
+    .space {
+        display: none;
+    }
+
+    .desc {
+        height: 15%;
+        overflow: hidden;
+        padding: 5;
+    }
+
+    .desc>p {
+        font-size: 22px;
+        padding-top: 0px;
+        background-color: whitesmoke;
+    }
+
+    .form-cont {
+        height: 70%;
+        overflow: hidden;
+    }
+
+    input {
+        padding: .5em .5em;
+        display: flex;
+        width: 250px;
+        border: 1px dashed #E5E7EB;
+        margin-bottom: 20px;
+        margin-right: 29px;
+    }
+
+    .btn-cont {
+        height: 15%;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .btn {
+        padding: .6em .6em;
+        width: 200px;
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1350px) {
+
+    .image-container {
+        height: 100vh;
+    }
+
+    .logo-container {
+        height: 110px;
+        padding: 10px;
+    }
+
+    .logo-container>img {
+        width: 70px;
+        height: 90px;
+        position: relative;
+        left: 0%;
+    }
+
+    .logo-container>h1 {
+        position: none;
+        font-family: "Norse Bold", sans-serif;
+        font-weight: bold;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .aside {
+        width: 67%;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .space {
+        display: none;
+    }
+
+    .desc {
+        height: 20%;
+        overflow: hidden;
+        padding: 10px;
+    }
+
+    .desc>p {
+        font-size: 20px;
+        padding-top: 0px;
+        background-color: whitesmoke;
+    }
+
+    .form-cont {
+        height: 63%;
+        overflow: hidden;
+    }
+
+    .form-cont>.form {
+        width: 100%;
+        height:auto;
+        position: relative;
+        left: 3%;
+        padding: 1px;
+    }
+
+    input {
+        width: calc(250px);
+        margin-bottom: 1em;
+        margin-right: 40px;
+
+    }
+
+    .btn-cont {
+        height: 13%;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .btn {
+        padding: .6em .6em;
+
+        font-size: 15px;
+    }
+
+}
