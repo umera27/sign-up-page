@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "Norse Bold";
-    src: url("/resources/font/Norse-Bold.otf") format("opentype");
+    src: url("./resources/font/Norse-Bold.otf") format("opentype");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -28,7 +28,7 @@
 .image-container {
     border: none;
     width: 37%;
-    background-image: url("/resources/images/halie-west-25xggax4bSA-unsplash\ \(1\).jpg");
+    background-image: url("./resources/images/halie-west-25xggax4bSA-unsplash\ \(1\).jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
